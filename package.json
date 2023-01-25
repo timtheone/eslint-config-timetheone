@@ -1,37 +1,11 @@
 {
-  "name": "@timtheone/eslint-lint-config-timetheone",
-  "version": "1.0.1",
-  "description": "React typescript eslint config",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timtheone/eslint-lint-config-timetheone.git"
-  },
-  "author": "Tim Almamedov",
-  "license": "MIT",
-  "peerDependencies": {
-    "@openapitools/openapi-generator-cli": "^2.5.2",
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.48.0",
-    "@typescript-eslint/parser": "^5.48.0",
-    "cross-var": "^1.1.0",
-    "dotenv-cli": "^6.0.0",
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "^2.8.1"
-  },
-  "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.48.0",
-    "@typescript-eslint/parser": "^5.48.0",
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "prettier": "^2.8.1"
+  "name": "Shared ESLint and Prettier config",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish-eslint-config": "npm publish --workspace @timtheone/eslint-config-timtheone",
+    "publish-prettier-config": "npm publish --workspace @timtheone/prettier-config-timtheone"
   }
 }

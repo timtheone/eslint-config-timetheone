@@ -1,0 +1,12 @@
+{
+  "name": "@timtheone/eslint-lint-config-timetheone",
+  "version": "1.0.0",
+  "description": "React typescript prettier config",
+  "main": "prettier-config.json",
+  "author": "Tim Almamedov",
+  "license": "MIT",
+  "peerDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "prettier": "^2.8.1"
+  }
+}
