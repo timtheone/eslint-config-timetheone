@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timtheone/lint_config.git"
+    "url": "git+https://github.com/timtheone/eslint-lint-config-timetheone.git"
   },
   "author": "Tim Almamedov",
   "license": "MIT",
