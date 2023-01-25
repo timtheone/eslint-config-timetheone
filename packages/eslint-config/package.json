@@ -1,6 +1,6 @@
 {
   "name": "@timtheone/eslint-config-timtheone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React typescript eslint config",
   "main": "eslint-config.js",
   "author": "Tim Almamedov",

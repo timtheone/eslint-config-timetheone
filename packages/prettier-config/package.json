@@ -1,6 +1,6 @@
 {
   "name": "@timtheone/prettier-config-timtheone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React typescript prettier config",
   "main": "prettier-config.json",
   "author": "Tim Almamedov",
