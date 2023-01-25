@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "publish-eslint-config": "npm publish --workspace @timtheone/eslint-config-timtheone",
-    "publish-prettier-config": "npm publish --workspace @timtheone/prettier-config-timtheone"
+    "publish-eslint-config": "npm publish --access public --workspace @timtheone/eslint-config-timtheone",
+    "publish-prettier-config": "npm publish --access public --workspace @timtheone/prettier-config-timtheone"
   }
 }

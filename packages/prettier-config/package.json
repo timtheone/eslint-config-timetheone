@@ -1,5 +1,5 @@
 {
-  "name": "@timtheone/eslint-lint-config-timetheone",
+  "name": "@timtheone/prettier-config-timtheone",
   "version": "1.0.0",
   "description": "React typescript prettier config",
   "main": "prettier-config.json",
