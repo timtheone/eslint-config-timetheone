@@ -1,5 +1,5 @@
 {
-  "name": "@timetheone/eslint-lint-config-timetheone",
+  "name": "@timtheone/eslint-lint-config-timetheone",
   "version": "1.0.0",
   "description": "React typescript eslint config",
   "main": "index.js",
